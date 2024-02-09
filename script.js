@@ -19,7 +19,7 @@ var ageDays= today.getDate () - birthdateobj.getDate()
     ageDays= lastmonthDate;
     ageMonths--;
  }
- document.getElementById("result").innerHTML=  "Your age is " + ageYears + " years, " + ageMonths + " months, " + ageDays + " old";
+ document.getElementById("result").innerHTML=  "Your age is " + ageYears + " years, " + ageMonths + " months, " + ageDays + " days  old";
 
 
 }
